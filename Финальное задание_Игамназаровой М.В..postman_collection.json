@@ -1,0 +1,850 @@
+{
+	"info": {
+		"_postman_id": "4506dbf2-eb2d-4586-9534-a6295575e44e",
+		"name": "Финальное задание_Игамназаровой М.В.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42356630"
+	},
+	"item": [
+		{
+			"name": "позитивные",
+			"item": [
+				{
+					"name": "запрос количества ночей",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "https://fstravel.com/searchtour"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-csrf-token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+							},
+							{
+								"key": "x-requested-with",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "eyJpdiI6IjBrWHc4amd1MFBnY1ZMRndOWmxzSXc9PSIsInZhbHVlIjoiOExZQ1BRWldyTUpuS2UwbWg4SjkwRHNZZGsrZXYreElJeEVsSEhJdnlvbnhpZ1RvWm5iK1JySnpwTW9yK1IyOFV1czdvRFhGVkF2L3ZsRVpzdnZhcnhOU2Q2K0ZmSjFaMXllaTRwbVB5RE14U2Zwd3A4UTY3dWg5Yy80MzZNYVIiLCJtYWMiOiI1Yjc3N2Q0ODg1OWU5Yzc5Y2FlMzUwYTA3ZTk2NjI1MTRkMmI5NzUyZjUxYjQ4NTkxMzAwMGVhNzI4MzhjMmFmIn0="
+							},
+							{
+								"key": "Cookie",
+								"value": "spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; token_type_fs=Bearer; access_token_fs=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiI4NjUxMDI5MTY3NDIyQTY4Qjc5QTJDQ0Y0MTRFMDUyQjNEN0VEMTI0IiwidHlwIjoiYXQrand0IiwiY3R5IjoiSldUIn0.e-47HXm-TJZyZwKRxtEEhZCY1ftzCvdxXoYwRuHlIGNcv3g7yBs4wnWiwru_OI3Cgk9h809MAq_gAZq-CvR25_BOB-iVf9Wziv5_cADrihtcDe3vNxpbqgOkzDbmIlEjFywbP2GTGKTgsfuynx7DpJdMXHNyZkkpaxh0xPYH9eHBmjPNsFpF7M396PdlcQRvhIZekq1MQ_77YcbywcTDVMVxZVzg0BSl1JHnmRYFP4GTnzOWWit0QvpDlGsqKagcZR14ntDWzsKW3o4lAvii4kk3dJZvt-K_hNn5fyxEDhMuHUqDWCWiSNNNehcvf1WlXXTgt_EwXOTUdcSYXPbPEQ.sQYl1nA5x7ir-4mVHKhvUQ.VCmgnWYjNHTufTKH9nC5RveXdEnG5HnfqvgUrymPkvA3DBjVWtV8jB66Om_s0W6UKTVgeTt9IEyfgvO662BmT_RorvcvxH8OYpfbHUAIfvKwIfWHMHqEyltoGUZLonPwYSXjSEeSWDPIFVR6QnVSEn-ssupEaWKnNCohK9b5IlegoCSuseo00B-Hai8sxyJ0yvTW-EEi-BX4UGgfCvBJd1R2IMjDtWgVwVt64urHSk5ZrnSs6Zjmt81VOnDeGSWHNBTQu33ds5OTNv1ctMoVAMyLlPit-OU7yei-DiQaPJ3RRUS7PiT1C6uOA1ofwdgsSBibT1n19cZgA7rm9A02Ep9yvRW5aihe9K7MGHbVMNILu7SkwYVJXQNw1Foihov3vkAwNmZfsOaJ5UtovU1aVlYvNga_dU2cwi5EFo7AwgwtxPE1Q74d7wKzsyO2K3k9Ac6iHmu6c8Z4soWDEl8TfblLhplhrodzyjbed_m2OmkTf-Vpo3Dkr1AESqo0o_SXRl1_OB_s3wDSi4Rt4Yy4r8lOVfufcAQleT3dco2dLa17BYeCCMKbYYsa3FfCubNPM7Vu1VkJiD-GzfsLnO3fOsFMerBJkW-NbzfyaXNaUzR5ywjNAU73bCi3PTX94jKobcwCUlvSG7kaItpJ1tXz0bROt7DzALIb5TORuRmYbktNjk5Jh-Z9ObmhCuprkyl1MCArpwejOsfKcQnhhFmDzQZcp7Uxkw_SD7yGbwtVbp0EiZ2VCkFluJQPnroNJYuz3eLz9Jl9eETChEsXndZRDvTFRhfypYFZPw2b0V3k7PWxLAP7w7EeCRx17xRJZSfx4geotIsFgmHwywQln8eEA2daP14agRoBsyZLAfjqxrBAC8MZpCORDhChIR3Dky-psBl5fnvDBw7JQiTeDQYBYAqnozz33MSV5srJORCbjgLA4-CnBgqsVjgonhBoIkjzozL-x0lxV2O4P7sayTq8RZpYxsIIYQlKb0Guz6sltF596job-ZiS_GaH1KBxlP6m6VAYJ9TUfXPbR0oTF7gLGxwFouXKwMhWeXuLFYbiA0Hev7-M4d9K3y8MNVMDLkKVHk7QmodPTtj2nxAGYJ2bpqGnDIpe6-wABiWCKO4U9EkVK1e-MFKMGujJB3sj6DXyokBnowPkrklfyM5JLdUbSuTiheV1vyUG1jj1SlmahR6UQILcheB9-FDCXpK_lc8TFB_T0O9qebFySfJ0NmvcSdCtjz_Eytb8eBanvXqDTh4Vofm-ueFQXb3rri_NaVFsO_cpsgxSjzXjtORx_Vo8eczqw94GuDaUme6o0gvtDtQgx26EKyn69f7EEhGkIr7sTkdR616_32e88QMNO5jlpIJD0nqtKKR7-wI4CsolmVlIsquxvNv0r2qbynUF2ncIVQIBxpxYIzqgAZY-84xZynewDzkrzhL4_SBjxmhhH08XmQVG1chQxHzZ8T5JAgfOsr6Bh3-lPrQxqtQ49uqe3joV6wHtTwfH69lgcUX7IXCNoK8tlwS4ctIk3NwAv5io.W0QLxpx3jC-AopcYpuDIteaRN4Pg6kAv7TQwkk-j9TI; _ct_ids=op885zi2%3A42831%3A564087190; _ct_session_id=564087190; adrdel=1742881345736; _ym_isad=2; _ym_visorc=b; __ddg9_=31.181.196.190; tmr_detect=0%7C1742881357902; __ddg10_=1742881360; __ddg8_=ZzAnHV7eaHLkotOx; advcake_track_url=%3D20250113HULDJwdOO8IhS6RLFjymcakJnLekj3LFyaANMnZNJN6hVsaIHBVDDZHLLL718uPAF1hJSq4%2FG9p%2FlQJnb9VdzO3fgsYGk%2Fr4U274SnUUT2QCklXhwVKKrEoVmkVFTnG7w9IXXYWRa3%2FYwOGR%2Bog97AcUcaJFmDZBx6VS7rr5OfGX8qhy5pbBQUoZzY0cpdQv5At6aNx7ucAEncLrPZ9qKxSQdPBYv67I3amVTCcB10%2BBBhfUUw%2FTjmsI67v8GxAeW7eQqtMIWyxDFLdayLIqPK01o80edpYp7QzDtiUffHZFqbBOWlO2VdnWtVOOu44Hnqq1Mer2cZ6Lom8AI5Lg0r8CqEeIUzsuicxhDqayhLNAqC4MpVdWovKG7Z7qZeYxPtVMQmXKG%2F0JI0GSy9cYpTYYNfy9qGmnFHVLgI%2BWCru99bUU80YFWPRLfAGkhrtBzKeCEsnGadojGo%2BcElPYGYNdEFsfT3p6oYtxx500vG9SuxiKwiWju9gaOLD1Ixi2SevnABilBxss9Yg3nMMBiOSSVPETE4wKKpewzTBNGRGSP0Ye7m%2F0nILNn0gVTpKrtOth5hqgiNXu714oDuQ6iJseib41z8oxbafrlWZnO7L3wWYUe2q3BNRioH62BxXUazsH%2FesibmhIZNYlP1B56yDsAbm6jhdfxZHdXMbWu%2FD446TonxSTWgc%3D; PageNumber=2; _ga_GJ17DPCPJY=GS1.1.1742881325.9.1.1742881430.0.0.0; _spx=eyJpZCI6IjNiNzUxZDllLTdmZjgtNGNmMy1hNDhlLTY0N2NiOGJhMjAxMyIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbMTA3NzEyNzIwMSwwXX19; call_s=___op885zi2.1742883234.564087190.241285:745570|2___; XSRF-TOKEN=eyJpdiI6IjBrWHc4amd1MFBnY1ZMRndOWmxzSXc9PSIsInZhbHVlIjoiOExZQ1BRWldyTUpuS2UwbWg4SjkwRHNZZGsrZXYreElJeEVsSEhJdnlvbnhpZ1RvWm5iK1JySnpwTW9yK1IyOFV1czdvRFhGVkF2L3ZsRVpzdnZhcnhOU2Q2K0ZmSjFaMXllaTRwbVB5RE14U2Zwd3A4UTY3dWg5Yy80MzZNYVIiLCJtYWMiOiI1Yjc3N2Q0ODg1OWU5Yzc5Y2FlMzUwYTA3ZTk2NjI1MTRkMmI5NzUyZjUxYjQ4NTkxMzAwMGVhNzI4MzhjMmFmIn0%3D; funsan_session=eyJpdiI6IlB2RWpwVnQzN2M2czM2OHRsN2N5ZXc9PSIsInZhbHVlIjoiWjNwUTRka2JiUWwxa0J0dWMyU0dUcFV2bHNWZGNjVCtGdEpZbVpoVVVZWkM4b0hJeVU2TUd5VWo4RVR3OW1lbG52cms3Yll2bDhvaitNVWRkbjA2eGJBRWNBb3IvNUtQR1RXaFltNjFYdFMxbkJFazVhYUZ5eUorU1JIOWdrQlYiLCJtYWMiOiI1M2Q3Yjc2ZDI3YTJmOWM3ZWJiMTk3NDYwYzFiZDgxNDYzYzc0ZjQ2NjM5NzJlMDRlMDM3NmIzM2FjNjNjMzM5In0%3D; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D"
+							}
+						],
+						"url": {
+							"raw": "https://fstravel.com/api/service-api/f-s/fields/get-nights-by-freight-type?arrivalCountryId=18803&departureCityId=274286&checkinBeg=2025-04-07&checkinEnd=2025-04-08&adult=2&child=0&freightType=0",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"service-api",
+								"f-s",
+								"fields",
+								"get-nights-by-freight-type"
+							],
+							"query": [
+								{
+									"key": "arrivalCountryId",
+									"value": "18803"
+								},
+								{
+									"key": "departureCityId",
+									"value": "274286"
+								},
+								{
+									"key": "checkinBeg",
+									"value": "2025-04-07"
+								},
+								{
+									"key": "checkinEnd",
+									"value": "2025-04-08"
+								},
+								{
+									"key": "adult",
+									"value": "2"
+								},
+								{
+									"key": "child",
+									"value": "0"
+								},
+								{
+									"key": "freightType",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Generated from cURL: curl 'https://fstravel.com/api/service-api/f-s/fields/get-nights-by-freight-type?arrivalCountryId=18803&departureCityId=274286&checkinBeg=2025-04-08&checkinEnd=2025-04-08&adult=2&child=0&freightType=0' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -b 'spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; token_type_fs=Bearer; access_token_fs=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiI4NjUxMDI5MTY3NDIyQTY4Qjc5QTJDQ0Y0MTRFMDUyQjNEN0VEMTI0IiwidHlwIjoiYXQrand0IiwiY3R5IjoiSldUIn0.e-47HXm-TJZyZwKRxtEEhZCY1ftzCvdxXoYwRuHlIGNcv3g7yBs4wnWiwru_OI3Cgk9h809MAq_gAZq-CvR25_BOB-iVf9Wziv5_cADrihtcDe3vNxpbqgOkzDbmIlEjFywbP2GTGKTgsfuynx7DpJdMXHNyZkkpaxh0xPYH9eHBmjPNsFpF7M396PdlcQRvhIZekq1MQ_77YcbywcTDVMVxZVzg0BSl1JHnmRYFP4GTnzOWWit0QvpDlGsqKagcZR14ntDWzsKW3o4lAvii4kk3dJZvt-K_hNn5fyxEDhMuHUqDWCWiSNNNehcvf1WlXXTgt_EwXOTUdcSYXPbPEQ.sQYl1nA5x7ir-4mVHKhvUQ.VCmgnWYjNHTufTKH9nC5RveXdEnG5HnfqvgUrymPkvA3DBjVWtV8jB66Om_s0W6UKTVgeTt9IEyfgvO662BmT_RorvcvxH8OYpfbHUAIfvKwIfWHMHqEyltoGUZLonPwYSXjSEeSWDPIFVR6QnVSEn-ssupEaWKnNCohK9b5IlegoCSuseo00B-Hai8sxyJ0yvTW-EEi-BX4UGgfCvBJd1R2IMjDtWgVwVt64urHSk5ZrnSs6Zjmt81VOnDeGSWHNBTQu33ds5OTNv1ctMoVAMyLlPit-OU7yei-DiQaPJ3RRUS7PiT1C6uOA1ofwdgsSBibT1n19cZgA7rm9A02Ep9yvRW5aihe9K7MGHbVMNILu7SkwYVJXQNw1Foihov3vkAwNmZfsOaJ5UtovU1aVlYvNga_dU2cwi5EFo7AwgwtxPE1Q74d7wKzsyO2K3k9Ac6iHmu6c8Z4soWDEl8TfblLhplhrodzyjbed_m2OmkTf-Vpo3Dkr1AESqo0o_SXRl1_OB_s3wDSi4Rt4Yy4r8lOVfufcAQleT3dco2dLa17BYeCCMKbYYsa3FfCubNPM7Vu1VkJiD-GzfsLnO3fOsFMerBJkW-NbzfyaXNaUzR5ywjNAU73bCi3PTX94jKobcwCUlvSG7kaItpJ1tXz0bROt7DzALIb5TORuRmYbktNjk5Jh-Z9ObmhCuprkyl1MCArpwejOsfKcQnhhFmDzQZcp7Uxkw_SD7yGbwtVbp0EiZ2VCkFluJQPnroNJYuz3eLz9Jl9eETChEsXndZRDvTFRhfypYFZPw2b0V3k7PWxLAP7w7EeCRx17xRJZSfx4geotIsFgmHwywQln8eEA2daP14agRoBsyZLAfjqxrBAC8MZpCORDhChIR3Dky-psBl5fnvDBw7JQiTeDQYBYAqnozz33MSV5srJORCbjgLA4-CnBgqsVjgonhBoIkjzozL-x0lxV2O4P7sayTq8RZpYxsIIYQlKb0Guz6sltF596job-ZiS_GaH1KBxlP6m6VAYJ9TUfXPbR0oTF7gLGxwFouXKwMhWeXuLFYbiA0Hev7-M4d9K3y8MNVMDLkKVHk7QmodPTtj2nxAGYJ2bpqGnDIpe6-wABiWCKO4U9EkVK1e-MFKMGujJB3sj6DXyokBnowPkrklfyM5JLdUbSuTiheV1vyUG1jj1SlmahR6UQILcheB9-FDCXpK_lc8TFB_T0O9qebFySfJ0NmvcSdCtjz_Eytb8eBanvXqDTh4Vofm-ueFQXb3rri_NaVFsO_cpsgxSjzXjtORx_Vo8eczqw94GuDaUme6o0gvtDtQgx26EKyn69f7EEhGkIr7sTkdR616_32e88QMNO5jlpIJD0nqtKKR7-wI4CsolmVlIsquxvNv0r2qbynUF2ncIVQIBxpxYIzqgAZY-84xZynewDzkrzhL4_SBjxmhhH08XmQVG1chQxHzZ8T5JAgfOsr6Bh3-lPrQxqtQ49uqe3joV6wHtTwfH69lgcUX7IXCNoK8tlwS4ctIk3NwAv5io.W0QLxpx3jC-AopcYpuDIteaRN4Pg6kAv7TQwkk-j9TI; _ct_ids=op885zi2%3A42831%3A564087190; _ct_session_id=564087190; adrdel=1742881345736; _ym_isad=2; _ym_visorc=b; __ddg9_=31.181.196.190; tmr_detect=0%7C1742881357902; __ddg10_=1742881360; __ddg8_=ZzAnHV7eaHLkotOx; advcake_track_url=%3D20250113HULDJwdOO8IhS6RLFjymcakJnLekj3LFyaANMnZNJN6hVsaIHBVDDZHLLL718uPAF1hJSq4%2FG9p%2FlQJnb9VdzO3fgsYGk%2Fr4U274SnUUT2QCklXhwVKKrEoVmkVFTnG7w9IXXYWRa3%2FYwOGR%2Bog97AcUcaJFmDZBx6VS7rr5OfGX8qhy5pbBQUoZzY0cpdQv5At6aNx7ucAEncLrPZ9qKxSQdPBYv67I3amVTCcB10%2BBBhfUUw%2FTjmsI67v8GxAeW7eQqtMIWyxDFLdayLIqPK01o80edpYp7QzDtiUffHZFqbBOWlO2VdnWtVOOu44Hnqq1Mer2cZ6Lom8AI5Lg0r8CqEeIUzsuicxhDqayhLNAqC4MpVdWovKG7Z7qZeYxPtVMQmXKG%2F0JI0GSy9cYpTYYNfy9qGmnFHVLgI%2BWCru99bUU80YFWPRLfAGkhrtBzKeCEsnGadojGo%2BcElPYGYNdEFsfT3p6oYtxx500vG9SuxiKwiWju9gaOLD1Ixi2SevnABilBxss9Yg3nMMBiOSSVPETE4wKKpewzTBNGRGSP0Ye7m%2F0nILNn0gVTpKrtOth5hqgiNXu714oDuQ6iJseib41z8oxbafrlWZnO7L3wWYUe2q3BNRioH62BxXUazsH%2FesibmhIZNYlP1B56yDsAbm6jhdfxZHdXMbWu%2FD446TonxSTWgc%3D; PageNumber=2; _ga_GJ17DPCPJY=GS1.1.1742881325.9.1.1742881430.0.0.0; _spx=eyJpZCI6IjNiNzUxZDllLTdmZjgtNGNmMy1hNDhlLTY0N2NiOGJhMjAxMyIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbMTA3NzEyNzIwMSwwXX19; call_s=___op885zi2.1742883234.564087190.241285:745570|2___; XSRF-TOKEN=eyJpdiI6IjBrWHc4amd1MFBnY1ZMRndOWmxzSXc9PSIsInZhbHVlIjoiOExZQ1BRWldyTUpuS2UwbWg4SjkwRHNZZGsrZXYreElJeEVsSEhJdnlvbnhpZ1RvWm5iK1JySnpwTW9yK1IyOFV1czdvRFhGVkF2L3ZsRVpzdnZhcnhOU2Q2K0ZmSjFaMXllaTRwbVB5RE14U2Zwd3A4UTY3dWg5Yy80MzZNYVIiLCJtYWMiOiI1Yjc3N2Q0ODg1OWU5Yzc5Y2FlMzUwYTA3ZTk2NjI1MTRkMmI5NzUyZjUxYjQ4NTkxMzAwMGVhNzI4MzhjMmFmIn0%3D; funsan_session=eyJpdiI6IlB2RWpwVnQzN2M2czM2OHRsN2N5ZXc9PSIsInZhbHVlIjoiWjNwUTRka2JiUWwxa0J0dWMyU0dUcFV2bHNWZGNjVCtGdEpZbVpoVVVZWkM4b0hJeVU2TUd5VWo4RVR3OW1lbG52cms3Yll2bDhvaitNVWRkbjA2eGJBRWNBb3IvNUtQR1RXaFltNjFYdFMxbkJFazVhYUZ5eUorU1JIOWdrQlYiLCJtYWMiOiI1M2Q3Yjc2ZDI3YTJmOWM3ZWJiMTk3NDYwYzFiZDgxNDYzYzc0ZjQ2NjM5NzJlMDRlMDM3NmIzM2FjNjNjMzM5In0%3D; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/searchtour' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  -H 'x-xsrf-token: eyJpdiI6IjBrWHc4amd1MFBnY1ZMRndOWmxzSXc9PSIsInZhbHVlIjoiOExZQ1BRWldyTUpuS2UwbWg4SjkwRHNZZGsrZXYreElJeEVsSEhJdnlvbnhpZ1RvWm5iK1JySnpwTW9yK1IyOFV1czdvRFhGVkF2L3ZsRVpzdnZhcnhOU2Q2K0ZmSjFaMXllaTRwbVB5RE14U2Zwd3A4UTY3dWg5Yy80MzZNYVIiLCJtYWMiOiI1Yjc3N2Q0ODg1OWU5Yzc5Y2FlMzUwYTA3ZTk2NjI1MTRkMmI5NzUyZjUxYjQ4NTkxMzAwMGVhNzI4MzhjMmFmIn0='"
+					},
+					"response": []
+				},
+				{
+					"name": "запрос списка городов",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fstravel.com/api/filters/DepartureCities",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"filters",
+								"DepartureCities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "запрос туров",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "https://fstravel.com/"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-csrf-token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+							},
+							{
+								"key": "x-requested-with",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0="
+							},
+							{
+								"key": "Cookie",
+								"value": "spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; _ct_ids=op885zi2%3A42831%3A563719684; _ct_session_id=563719684; _ym_isad=2; adrdel=1742808429427; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ym_visorc=b; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; __ddg10_=1742824073; __ddg9_=85.174.197.17; __ddg8_=yRegMwBk7PmZQJIW; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113PEJclo0GvscKiWF4o5%2BA8FS0FZ1Z%2FgcRolKBVElp4VFpqueW1YBOMLaWR3VqX1k5GX7ZgsVbN4xLa1fg24mx0UqVaMPWc%2FHLVBTBE5L4drrj1TTZ69wdmAEBWK2ynavUeoOFJQYGcLlzw0hFCYoeV%2F5R9z5bDzgeay3yiGJGxUvbEdDN23NQSOsbHt%2ByKkm0yOaWJ4NB%2BXJ837gjzY%2FPeLAfpfHJt3ts6NdDIEQOxGbhP3frBslGmQI51tBf6UoJ6DZUwowOK4Ql6jnPxm%2FNuYxNDZ%2FixWfYWzreGGDCdxubF4K54mriS%2FNQYn0M9%2FG85g2qTKjjrO7Q4kae%2Bs%2B%2BOYmxaKsa9BAZM%2FPH%2Bl7udsxuFqlmW7v1LX4vL9d4%2BZ0vU9DCALQC7eHTkTJkgrYcHhWTE2tcl7%2FQWx2Jpr7qEm3iobHQUOplWLdPrk5Sw7gj06eng0SjnlDJk3ObU%2FDZ3%2FrHucOdMH60Tm4XOL6dtRbMl4Y96EwD%2BzrHd3fW6HgbmYXnwboqghVtZxRviHZMKVheLsgVCasSaz3Wknt4RZTtOLiRf2rHgDcH5uo8MsBYOKMvLKeDLtNvu08EUa2uIIaUxQ0u873%2BRvVmCS9BtfhT76DVCtInmjsSoXcPX9ZrntH5LsLVEWndAJkE6JHD4kejH9U4Aow1Dcpa9HUgvCJsT4%2FREtfIrfk%3D; tmr_detect=0%7C1742824211510; PageNumber=52; _ga_GJ17DPCPJY=GS1.1.1742808426.6.1.1742824229.0.0.0; _spx=eyJpZCI6IjA4NmNjZjJmLThjOTktNGVlNC04OTFiLTZjZmIxYzVhZDA5ZCIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbNjYxODAzNDA3LDY2MTgwMzQwNywtMTI5MzIzNDg2MiwwLDBdfX0%3D; call_s=___op885zi2.1742826032.563719684.241285:745570|2___; XSRF-TOKEN=eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0%3D; funsan_session=eyJpdiI6ImF5Z0IrV0k1ZFVPY1R6ZXoyMk9CdVE9PSIsInZhbHVlIjoibmZpaDNOS2I3aVY4RWM1T2c3MldRRlIxTVUxNVoyM0lYMVNCMGdTNTZYMXliUHZxeW5lY3c4TWt3MjhXcnM0blZpQzl1bTBrQ0d1Y3g4TjhMTE4wcFVnVHpkdTFPbVloOFdlbGZWVGNMYUdtb1E5R2pmbU5keDV2TlBwZ3o3N2giLCJtYWMiOiI2NzdhOWQ5MWM3MDYzNWE2OWExYTczZGEwMGI0NGE1NmJiODY1ZTFhOWM5NjE1YWQ3ZjUyZjY3ZjU3MTVmODAyIn0%3D"
+							}
+						],
+						"url": {
+							"raw": "https://fstravel.com/api/service-api/f-s/fields/get-arrival?departureCityId=274286&whoRequest=tours",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"service-api",
+								"f-s",
+								"fields",
+								"get-arrival"
+							],
+							"query": [
+								{
+									"key": "departureCityId",
+									"value": "274286"
+								},
+								{
+									"key": "whoRequest",
+									"value": "tours"
+								}
+							]
+						},
+						"description": "Generated from cURL: curl 'https://fstravel.com/api/service-api/f-s/fields/get-arrival?departureCityId=274286&whoRequest=tours' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -b 'spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; _ct_ids=op885zi2%3A42831%3A563719684; _ct_session_id=563719684; _ym_isad=2; adrdel=1742808429427; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ym_visorc=b; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; __ddg10_=1742824073; __ddg9_=85.174.197.17; __ddg8_=yRegMwBk7PmZQJIW; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113PEJclo0GvscKiWF4o5%2BA8FS0FZ1Z%2FgcRolKBVElp4VFpqueW1YBOMLaWR3VqX1k5GX7ZgsVbN4xLa1fg24mx0UqVaMPWc%2FHLVBTBE5L4drrj1TTZ69wdmAEBWK2ynavUeoOFJQYGcLlzw0hFCYoeV%2F5R9z5bDzgeay3yiGJGxUvbEdDN23NQSOsbHt%2ByKkm0yOaWJ4NB%2BXJ837gjzY%2FPeLAfpfHJt3ts6NdDIEQOxGbhP3frBslGmQI51tBf6UoJ6DZUwowOK4Ql6jnPxm%2FNuYxNDZ%2FixWfYWzreGGDCdxubF4K54mriS%2FNQYn0M9%2FG85g2qTKjjrO7Q4kae%2Bs%2B%2BOYmxaKsa9BAZM%2FPH%2Bl7udsxuFqlmW7v1LX4vL9d4%2BZ0vU9DCALQC7eHTkTJkgrYcHhWTE2tcl7%2FQWx2Jpr7qEm3iobHQUOplWLdPrk5Sw7gj06eng0SjnlDJk3ObU%2FDZ3%2FrHucOdMH60Tm4XOL6dtRbMl4Y96EwD%2BzrHd3fW6HgbmYXnwboqghVtZxRviHZMKVheLsgVCasSaz3Wknt4RZTtOLiRf2rHgDcH5uo8MsBYOKMvLKeDLtNvu08EUa2uIIaUxQ0u873%2BRvVmCS9BtfhT76DVCtInmjsSoXcPX9ZrntH5LsLVEWndAJkE6JHD4kejH9U4Aow1Dcpa9HUgvCJsT4%2FREtfIrfk%3D; tmr_detect=0%7C1742824211510; PageNumber=52; _ga_GJ17DPCPJY=GS1.1.1742808426.6.1.1742824229.0.0.0; _spx=eyJpZCI6IjA4NmNjZjJmLThjOTktNGVlNC04OTFiLTZjZmIxYzVhZDA5ZCIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbNjYxODAzNDA3LDY2MTgwMzQwNywtMTI5MzIzNDg2MiwwLDBdfX0%3D; call_s=___op885zi2.1742826032.563719684.241285:745570|2___; XSRF-TOKEN=eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0%3D; funsan_session=eyJpdiI6ImF5Z0IrV0k1ZFVPY1R6ZXoyMk9CdVE9PSIsInZhbHVlIjoibmZpaDNOS2I3aVY4RWM1T2c3MldRRlIxTVUxNVoyM0lYMVNCMGdTNTZYMXliUHZxeW5lY3c4TWt3MjhXcnM0blZpQzl1bTBrQ0d1Y3g4TjhMTE4wcFVnVHpkdTFPbVloOFdlbGZWVGNMYUdtb1E5R2pmbU5keDV2TlBwZ3o3N2giLCJtYWMiOiI2NzdhOWQ5MWM3MDYzNWE2OWExYTczZGEwMGI0NGE1NmJiODY1ZTFhOWM5NjE1YWQ3ZjUyZjY3ZjU3MTVmODAyIn0%3D' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  -H 'x-xsrf-token: eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0='"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "негативные",
+			"item": [
+				{
+					"name": "запрос города с нeсуществующим id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "https://fstravel.com/"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-csrf-token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+							},
+							{
+								"key": "x-requested-with",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0="
+							},
+							{
+								"key": "Cookie",
+								"value": "spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; _ct_ids=op885zi2%3A42831%3A563719684; _ct_session_id=563719684; _ym_isad=2; adrdel=1742808429427; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ym_visorc=b; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; __ddg10_=1742824073; __ddg9_=85.174.197.17; __ddg8_=yRegMwBk7PmZQJIW; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113PEJclo0GvscKiWF4o5%2BA8FS0FZ1Z%2FgcRolKBVElp4VFpqueW1YBOMLaWR3VqX1k5GX7ZgsVbN4xLa1fg24mx0UqVaMPWc%2FHLVBTBE5L4drrj1TTZ69wdmAEBWK2ynavUeoOFJQYGcLlzw0hFCYoeV%2F5R9z5bDzgeay3yiGJGxUvbEdDN23NQSOsbHt%2ByKkm0yOaWJ4NB%2BXJ837gjzY%2FPeLAfpfHJt3ts6NdDIEQOxGbhP3frBslGmQI51tBf6UoJ6DZUwowOK4Ql6jnPxm%2FNuYxNDZ%2FixWfYWzreGGDCdxubF4K54mriS%2FNQYn0M9%2FG85g2qTKjjrO7Q4kae%2Bs%2B%2BOYmxaKsa9BAZM%2FPH%2Bl7udsxuFqlmW7v1LX4vL9d4%2BZ0vU9DCALQC7eHTkTJkgrYcHhWTE2tcl7%2FQWx2Jpr7qEm3iobHQUOplWLdPrk5Sw7gj06eng0SjnlDJk3ObU%2FDZ3%2FrHucOdMH60Tm4XOL6dtRbMl4Y96EwD%2BzrHd3fW6HgbmYXnwboqghVtZxRviHZMKVheLsgVCasSaz3Wknt4RZTtOLiRf2rHgDcH5uo8MsBYOKMvLKeDLtNvu08EUa2uIIaUxQ0u873%2BRvVmCS9BtfhT76DVCtInmjsSoXcPX9ZrntH5LsLVEWndAJkE6JHD4kejH9U4Aow1Dcpa9HUgvCJsT4%2FREtfIrfk%3D; tmr_detect=0%7C1742824211510; PageNumber=52; _ga_GJ17DPCPJY=GS1.1.1742808426.6.1.1742824229.0.0.0; _spx=eyJpZCI6IjA4NmNjZjJmLThjOTktNGVlNC04OTFiLTZjZmIxYzVhZDA5ZCIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbNjYxODAzNDA3LDY2MTgwMzQwNywtMTI5MzIzNDg2MiwwLDBdfX0%3D; call_s=___op885zi2.1742826032.563719684.241285:745570|2___; XSRF-TOKEN=eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0%3D; funsan_session=eyJpdiI6ImF5Z0IrV0k1ZFVPY1R6ZXoyMk9CdVE9PSIsInZhbHVlIjoibmZpaDNOS2I3aVY4RWM1T2c3MldRRlIxTVUxNVoyM0lYMVNCMGdTNTZYMXliUHZxeW5lY3c4TWt3MjhXcnM0blZpQzl1bTBrQ0d1Y3g4TjhMTE4wcFVnVHpkdTFPbVloOFdlbGZWVGNMYUdtb1E5R2pmbU5keDV2TlBwZ3o3N2giLCJtYWMiOiI2NzdhOWQ5MWM3MDYzNWE2OWExYTczZGEwMGI0NGE1NmJiODY1ZTFhOWM5NjE1YWQ3ZjUyZjY3ZjU3MTVmODAyIn0%3D"
+							}
+						],
+						"url": {
+							"raw": "https://fstravel.com/api/service-api/f-s/fields/get-nights-by-freight-type?arrivalCountryId=18&departureCityId=274286&checkinBeg=2025-04-07&checkinEnd=2025-04-07&adult=2&child=0&freightType=0",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"service-api",
+								"f-s",
+								"fields",
+								"get-nights-by-freight-type"
+							],
+							"query": [
+								{
+									"key": "arrivalCountryId",
+									"value": "18"
+								},
+								{
+									"key": "departureCityId",
+									"value": "274286"
+								},
+								{
+									"key": "checkinBeg",
+									"value": "2025-04-07"
+								},
+								{
+									"key": "checkinEnd",
+									"value": "2025-04-07"
+								},
+								{
+									"key": "adult",
+									"value": "2"
+								},
+								{
+									"key": "child",
+									"value": "0"
+								},
+								{
+									"key": "freightType",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Generated from cURL: curl 'https://fstravel.com/api/service-api/f-s/fields/get-nights-by-freight-type?arrivalCountryId=18803&departureCityId=274286&checkinBeg=2025-04-07&checkinEnd=2025-04-07&adult=2&child=0&freightType=0' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -b 'spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; _ct_ids=op885zi2%3A42831%3A563719684; _ct_session_id=563719684; _ym_isad=2; adrdel=1742808429427; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ym_visorc=b; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; __ddg10_=1742824073; __ddg9_=85.174.197.17; __ddg8_=yRegMwBk7PmZQJIW; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113PEJclo0GvscKiWF4o5%2BA8FS0FZ1Z%2FgcRolKBVElp4VFpqueW1YBOMLaWR3VqX1k5GX7ZgsVbN4xLa1fg24mx0UqVaMPWc%2FHLVBTBE5L4drrj1TTZ69wdmAEBWK2ynavUeoOFJQYGcLlzw0hFCYoeV%2F5R9z5bDzgeay3yiGJGxUvbEdDN23NQSOsbHt%2ByKkm0yOaWJ4NB%2BXJ837gjzY%2FPeLAfpfHJt3ts6NdDIEQOxGbhP3frBslGmQI51tBf6UoJ6DZUwowOK4Ql6jnPxm%2FNuYxNDZ%2FixWfYWzreGGDCdxubF4K54mriS%2FNQYn0M9%2FG85g2qTKjjrO7Q4kae%2Bs%2B%2BOYmxaKsa9BAZM%2FPH%2Bl7udsxuFqlmW7v1LX4vL9d4%2BZ0vU9DCALQC7eHTkTJkgrYcHhWTE2tcl7%2FQWx2Jpr7qEm3iobHQUOplWLdPrk5Sw7gj06eng0SjnlDJk3ObU%2FDZ3%2FrHucOdMH60Tm4XOL6dtRbMl4Y96EwD%2BzrHd3fW6HgbmYXnwboqghVtZxRviHZMKVheLsgVCasSaz3Wknt4RZTtOLiRf2rHgDcH5uo8MsBYOKMvLKeDLtNvu08EUa2uIIaUxQ0u873%2BRvVmCS9BtfhT76DVCtInmjsSoXcPX9ZrntH5LsLVEWndAJkE6JHD4kejH9U4Aow1Dcpa9HUgvCJsT4%2FREtfIrfk%3D; tmr_detect=0%7C1742824211510; PageNumber=52; _ga_GJ17DPCPJY=GS1.1.1742808426.6.1.1742824229.0.0.0; _spx=eyJpZCI6IjA4NmNjZjJmLThjOTktNGVlNC04OTFiLTZjZmIxYzVhZDA5ZCIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbNjYxODAzNDA3LDY2MTgwMzQwNywtMTI5MzIzNDg2MiwwLDBdfX0%3D; call_s=___op885zi2.1742826032.563719684.241285:745570|2___; XSRF-TOKEN=eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0%3D; funsan_session=eyJpdiI6ImF5Z0IrV0k1ZFVPY1R6ZXoyMk9CdVE9PSIsInZhbHVlIjoibmZpaDNOS2I3aVY4RWM1T2c3MldRRlIxTVUxNVoyM0lYMVNCMGdTNTZYMXliUHZxeW5lY3c4TWt3MjhXcnM0blZpQzl1bTBrQ0d1Y3g4TjhMTE4wcFVnVHpkdTFPbVloOFdlbGZWVGNMYUdtb1E5R2pmbU5keDV2TlBwZ3o3N2giLCJtYWMiOiI2NzdhOWQ5MWM3MDYzNWE2OWExYTczZGEwMGI0NGE1NmJiODY1ZTFhOWM5NjE1YWQ3ZjUyZjY3ZjU3MTVmODAyIn0%3D' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  -H 'x-xsrf-token: eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0='"
+					},
+					"response": []
+				},
+				{
+					"name": "запрос с нулевым количеством взрослых",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "https://fstravel.com/"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-csrf-token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+							},
+							{
+								"key": "x-requested-with",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0="
+							},
+							{
+								"key": "Cookie",
+								"value": "spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; _ct_ids=op885zi2%3A42831%3A563719684; _ct_session_id=563719684; _ym_isad=2; adrdel=1742808429427; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ym_visorc=b; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; __ddg10_=1742824073; __ddg9_=85.174.197.17; __ddg8_=yRegMwBk7PmZQJIW; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113PEJclo0GvscKiWF4o5%2BA8FS0FZ1Z%2FgcRolKBVElp4VFpqueW1YBOMLaWR3VqX1k5GX7ZgsVbN4xLa1fg24mx0UqVaMPWc%2FHLVBTBE5L4drrj1TTZ69wdmAEBWK2ynavUeoOFJQYGcLlzw0hFCYoeV%2F5R9z5bDzgeay3yiGJGxUvbEdDN23NQSOsbHt%2ByKkm0yOaWJ4NB%2BXJ837gjzY%2FPeLAfpfHJt3ts6NdDIEQOxGbhP3frBslGmQI51tBf6UoJ6DZUwowOK4Ql6jnPxm%2FNuYxNDZ%2FixWfYWzreGGDCdxubF4K54mriS%2FNQYn0M9%2FG85g2qTKjjrO7Q4kae%2Bs%2B%2BOYmxaKsa9BAZM%2FPH%2Bl7udsxuFqlmW7v1LX4vL9d4%2BZ0vU9DCALQC7eHTkTJkgrYcHhWTE2tcl7%2FQWx2Jpr7qEm3iobHQUOplWLdPrk5Sw7gj06eng0SjnlDJk3ObU%2FDZ3%2FrHucOdMH60Tm4XOL6dtRbMl4Y96EwD%2BzrHd3fW6HgbmYXnwboqghVtZxRviHZMKVheLsgVCasSaz3Wknt4RZTtOLiRf2rHgDcH5uo8MsBYOKMvLKeDLtNvu08EUa2uIIaUxQ0u873%2BRvVmCS9BtfhT76DVCtInmjsSoXcPX9ZrntH5LsLVEWndAJkE6JHD4kejH9U4Aow1Dcpa9HUgvCJsT4%2FREtfIrfk%3D; tmr_detect=0%7C1742824211510; PageNumber=52; _ga_GJ17DPCPJY=GS1.1.1742808426.6.1.1742824229.0.0.0; _spx=eyJpZCI6IjA4NmNjZjJmLThjOTktNGVlNC04OTFiLTZjZmIxYzVhZDA5ZCIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbNjYxODAzNDA3LDY2MTgwMzQwNywtMTI5MzIzNDg2MiwwLDBdfX0%3D; call_s=___op885zi2.1742826032.563719684.241285:745570|2___; XSRF-TOKEN=eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0%3D; funsan_session=eyJpdiI6ImF5Z0IrV0k1ZFVPY1R6ZXoyMk9CdVE9PSIsInZhbHVlIjoibmZpaDNOS2I3aVY4RWM1T2c3MldRRlIxTVUxNVoyM0lYMVNCMGdTNTZYMXliUHZxeW5lY3c4TWt3MjhXcnM0blZpQzl1bTBrQ0d1Y3g4TjhMTE4wcFVnVHpkdTFPbVloOFdlbGZWVGNMYUdtb1E5R2pmbU5keDV2TlBwZ3o3N2giLCJtYWMiOiI2NzdhOWQ5MWM3MDYzNWE2OWExYTczZGEwMGI0NGE1NmJiODY1ZTFhOWM5NjE1YWQ3ZjUyZjY3ZjU3MTVmODAyIn0%3D"
+							}
+						],
+						"url": {
+							"raw": "https://fstravel.com/api/service-api/f-s/fields/get-available-checkins?arrivalCountryId=18803&departureCityId=274286&adultsCount=0",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"service-api",
+								"f-s",
+								"fields",
+								"get-available-checkins"
+							],
+							"query": [
+								{
+									"key": "arrivalCountryId",
+									"value": "18803"
+								},
+								{
+									"key": "departureCityId",
+									"value": "274286"
+								},
+								{
+									"key": "adultsCount",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Generated from cURL: curl 'https://fstravel.com/api/service-api/f-s/fields/get-available-checkins?arrivalCountryId=18803&departureCityId=274286&adultsCount=2' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -b 'spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; _ct_ids=op885zi2%3A42831%3A563719684; _ct_session_id=563719684; _ym_isad=2; adrdel=1742808429427; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ym_visorc=b; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; __ddg10_=1742824073; __ddg9_=85.174.197.17; __ddg8_=yRegMwBk7PmZQJIW; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113PEJclo0GvscKiWF4o5%2BA8FS0FZ1Z%2FgcRolKBVElp4VFpqueW1YBOMLaWR3VqX1k5GX7ZgsVbN4xLa1fg24mx0UqVaMPWc%2FHLVBTBE5L4drrj1TTZ69wdmAEBWK2ynavUeoOFJQYGcLlzw0hFCYoeV%2F5R9z5bDzgeay3yiGJGxUvbEdDN23NQSOsbHt%2ByKkm0yOaWJ4NB%2BXJ837gjzY%2FPeLAfpfHJt3ts6NdDIEQOxGbhP3frBslGmQI51tBf6UoJ6DZUwowOK4Ql6jnPxm%2FNuYxNDZ%2FixWfYWzreGGDCdxubF4K54mriS%2FNQYn0M9%2FG85g2qTKjjrO7Q4kae%2Bs%2B%2BOYmxaKsa9BAZM%2FPH%2Bl7udsxuFqlmW7v1LX4vL9d4%2BZ0vU9DCALQC7eHTkTJkgrYcHhWTE2tcl7%2FQWx2Jpr7qEm3iobHQUOplWLdPrk5Sw7gj06eng0SjnlDJk3ObU%2FDZ3%2FrHucOdMH60Tm4XOL6dtRbMl4Y96EwD%2BzrHd3fW6HgbmYXnwboqghVtZxRviHZMKVheLsgVCasSaz3Wknt4RZTtOLiRf2rHgDcH5uo8MsBYOKMvLKeDLtNvu08EUa2uIIaUxQ0u873%2BRvVmCS9BtfhT76DVCtInmjsSoXcPX9ZrntH5LsLVEWndAJkE6JHD4kejH9U4Aow1Dcpa9HUgvCJsT4%2FREtfIrfk%3D; tmr_detect=0%7C1742824211510; PageNumber=52; _ga_GJ17DPCPJY=GS1.1.1742808426.6.1.1742824229.0.0.0; _spx=eyJpZCI6IjA4NmNjZjJmLThjOTktNGVlNC04OTFiLTZjZmIxYzVhZDA5ZCIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbNjYxODAzNDA3LDY2MTgwMzQwNywtMTI5MzIzNDg2MiwwLDBdfX0%3D; call_s=___op885zi2.1742826032.563719684.241285:745570|2___; XSRF-TOKEN=eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0%3D; funsan_session=eyJpdiI6ImF5Z0IrV0k1ZFVPY1R6ZXoyMk9CdVE9PSIsInZhbHVlIjoibmZpaDNOS2I3aVY4RWM1T2c3MldRRlIxTVUxNVoyM0lYMVNCMGdTNTZYMXliUHZxeW5lY3c4TWt3MjhXcnM0blZpQzl1bTBrQ0d1Y3g4TjhMTE4wcFVnVHpkdTFPbVloOFdlbGZWVGNMYUdtb1E5R2pmbU5keDV2TlBwZ3o3N2giLCJtYWMiOiI2NzdhOWQ5MWM3MDYzNWE2OWExYTczZGEwMGI0NGE1NmJiODY1ZTFhOWM5NjE1YWQ3ZjUyZjY3ZjU3MTVmODAyIn0%3D' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  -H 'x-xsrf-token: eyJpdiI6Im1IUHNnb0xLZEhUWnV5cG1NSkU1THc9PSIsInZhbHVlIjoiS2l6ZzhsYkM0OTJ4Z3BhSU13NHhxeU9PeW9uaWZ3MTV5WmZLVHhYWkw4aVJqd2c0NjM3WXlaOXpwa282NzNPUG16Z0YwZVo4WWcxSGtNcDExUnVFSS8wSGRGWVdYOG1JY2g0eWdTNjZlM1ROY2swZWJnUGVtdTR2eEo3VFhIeEMiLCJtYWMiOiJhYzI0YzM0ODA5NjA0NjE5MWY2M2Y5ZTNlYzc0ZmU1OTdlNDFmMjJkMWE2MWM4OGVmZWY1MzU1NGZlOTMwN2FmIn0='"
+					},
+					"response": []
+				},
+				{
+					"name": "запрос с пустым полем города",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "origin",
+								"value": "https://fstravel.com"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "https://fstravel.com/"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-site"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-csrf-token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+							},
+							{
+								"key": "x-requested-with",
+								"value": "XMLHttpRequest"
+							}
+						],
+						"url": {
+							"raw": "https://avia-new.fstravel.com/api/v1/cities/search?value=",
+							"protocol": "https",
+							"host": [
+								"avia-new",
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"cities",
+								"search"
+							],
+							"query": [
+								{
+									"key": "value",
+									"value": ""
+								}
+							]
+						},
+						"description": "Generated from cURL: curl 'https://avia-new.fstravel.com/api/v1/cities/search?value=GDG' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -H 'origin: https://fstravel.com' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-site' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest'"
+					},
+					"response": []
+				},
+				{
+					"name": "запрос с датой в прошлом году",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "https://fstravel.com/searchhotel/country/asia/uae?departureCityId=1&arrivalCountryId=20613&minStartDate=2025-04-08&maxStartDate=2025-04-08&minNightsCount=7&maxNightsCount=7&adults=2"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "same-origin"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "x-csrf-token",
+								"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+							},
+							{
+								"key": "x-requested-with",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "eyJpdiI6IlNoZTUyMDNwcHdWZEZzajlXQWFZNEE9PSIsInZhbHVlIjoiQ01yeENiNWF6VkdERmdMV3REa3BrcWtGZTdEVE5HL25CU2Y1R3BZSU8wMXB6SzFESlVyeVczVjNxNS8xcklXNGZLZk5lSHR0bGVncWZzYmt6NDNxaUkzUGEwZDlBQmtJeGpiU21EcWhya2libElGQjhvYWUxcUVHSzhVMDV3UmwiLCJtYWMiOiI0YmI0ZjAzYWIyZTYxODhhMDEyNzgyMDU5ODQ1NzJjY2ZhYWM4OWIyMDllZjliYzE3NWFiYWI5OTQyNTFiYTUzIn0="
+							},
+							{
+								"key": "Cookie",
+								"value": "spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; token_type_fs=Bearer; access_token_fs=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiI4NjUxMDI5MTY3NDIyQTY4Qjc5QTJDQ0Y0MTRFMDUyQjNEN0VEMTI0IiwidHlwIjoiYXQrand0IiwiY3R5IjoiSldUIn0.e-47HXm-TJZyZwKRxtEEhZCY1ftzCvdxXoYwRuHlIGNcv3g7yBs4wnWiwru_OI3Cgk9h809MAq_gAZq-CvR25_BOB-iVf9Wziv5_cADrihtcDe3vNxpbqgOkzDbmIlEjFywbP2GTGKTgsfuynx7DpJdMXHNyZkkpaxh0xPYH9eHBmjPNsFpF7M396PdlcQRvhIZekq1MQ_77YcbywcTDVMVxZVzg0BSl1JHnmRYFP4GTnzOWWit0QvpDlGsqKagcZR14ntDWzsKW3o4lAvii4kk3dJZvt-K_hNn5fyxEDhMuHUqDWCWiSNNNehcvf1WlXXTgt_EwXOTUdcSYXPbPEQ.sQYl1nA5x7ir-4mVHKhvUQ.VCmgnWYjNHTufTKH9nC5RveXdEnG5HnfqvgUrymPkvA3DBjVWtV8jB66Om_s0W6UKTVgeTt9IEyfgvO662BmT_RorvcvxH8OYpfbHUAIfvKwIfWHMHqEyltoGUZLonPwYSXjSEeSWDPIFVR6QnVSEn-ssupEaWKnNCohK9b5IlegoCSuseo00B-Hai8sxyJ0yvTW-EEi-BX4UGgfCvBJd1R2IMjDtWgVwVt64urHSk5ZrnSs6Zjmt81VOnDeGSWHNBTQu33ds5OTNv1ctMoVAMyLlPit-OU7yei-DiQaPJ3RRUS7PiT1C6uOA1ofwdgsSBibT1n19cZgA7rm9A02Ep9yvRW5aihe9K7MGHbVMNILu7SkwYVJXQNw1Foihov3vkAwNmZfsOaJ5UtovU1aVlYvNga_dU2cwi5EFo7AwgwtxPE1Q74d7wKzsyO2K3k9Ac6iHmu6c8Z4soWDEl8TfblLhplhrodzyjbed_m2OmkTf-Vpo3Dkr1AESqo0o_SXRl1_OB_s3wDSi4Rt4Yy4r8lOVfufcAQleT3dco2dLa17BYeCCMKbYYsa3FfCubNPM7Vu1VkJiD-GzfsLnO3fOsFMerBJkW-NbzfyaXNaUzR5ywjNAU73bCi3PTX94jKobcwCUlvSG7kaItpJ1tXz0bROt7DzALIb5TORuRmYbktNjk5Jh-Z9ObmhCuprkyl1MCArpwejOsfKcQnhhFmDzQZcp7Uxkw_SD7yGbwtVbp0EiZ2VCkFluJQPnroNJYuz3eLz9Jl9eETChEsXndZRDvTFRhfypYFZPw2b0V3k7PWxLAP7w7EeCRx17xRJZSfx4geotIsFgmHwywQln8eEA2daP14agRoBsyZLAfjqxrBAC8MZpCORDhChIR3Dky-psBl5fnvDBw7JQiTeDQYBYAqnozz33MSV5srJORCbjgLA4-CnBgqsVjgonhBoIkjzozL-x0lxV2O4P7sayTq8RZpYxsIIYQlKb0Guz6sltF596job-ZiS_GaH1KBxlP6m6VAYJ9TUfXPbR0oTF7gLGxwFouXKwMhWeXuLFYbiA0Hev7-M4d9K3y8MNVMDLkKVHk7QmodPTtj2nxAGYJ2bpqGnDIpe6-wABiWCKO4U9EkVK1e-MFKMGujJB3sj6DXyokBnowPkrklfyM5JLdUbSuTiheV1vyUG1jj1SlmahR6UQILcheB9-FDCXpK_lc8TFB_T0O9qebFySfJ0NmvcSdCtjz_Eytb8eBanvXqDTh4Vofm-ueFQXb3rri_NaVFsO_cpsgxSjzXjtORx_Vo8eczqw94GuDaUme6o0gvtDtQgx26EKyn69f7EEhGkIr7sTkdR616_32e88QMNO5jlpIJD0nqtKKR7-wI4CsolmVlIsquxvNv0r2qbynUF2ncIVQIBxpxYIzqgAZY-84xZynewDzkrzhL4_SBjxmhhH08XmQVG1chQxHzZ8T5JAgfOsr6Bh3-lPrQxqtQ49uqe3joV6wHtTwfH69lgcUX7IXCNoK8tlwS4ctIk3NwAv5io.W0QLxpx3jC-AopcYpuDIteaRN4Pg6kAv7TQwkk-j9TI; adrdel=1742881345736; _ym_isad=2; __ddg9_=31.181.196.190; _ct_ids=op885zi2%3A42831%3A564104921; _ct_session_id=564104921; _ym_visorc=w; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113fteMGISawcgWPGmIuePdb5nlX7A1KqGQ%2F2gLdWv4XK0KplbAT48ob3GZD989BRmBpTbdpMM1qYOuK%2B9x7hym7dY9YfhSwE6L%2FVPjnwLph4wzghDuhhv1iDP7OK37gZGsKMYl%2FNvmLPR662LMNYkajuJctNlj%2Bgt5TZKrN5HqejAhZjqm1sDKHbGfasDt3uwX18gfI4ui%2B%2FzKWV7aBdlrPL%2BsNC3ybkFLmuAPA%2FJq%2Fgujdfq6m6G10oofYDpJaHUsJ3ys7UdJQLZOv6wlAiGZUT3jAmc2s8YZctwEYSAueCQQ1mMOFNMh0y2TOM%2BB%2BPudwqnzq%2FHmFoYnzpet38vN4oSOBLAxQp78%2BMD3Be45rob%2Fd7ywkmVgHgIvkmd2HRVJTtB5OrVVXYyp0NVIg%2FbxCRjJ9n5VUBav8hzF9Mq0%2BadPTALosPJBpPAjKldgmze1vgkCZngJxbgEW3nRAndjWvduUPX7ffBRVJGHMJ6U6hjJzOpc8hBu08K8Vf9zD1T1KWkmI6uEMIeqSAoX73YZF6MeWb4SkFyr%2BDqjWOzLMKQPS%2FJdPVTvDPgCXALHmPl%2BgN6eg2jO%2BUMaiBlrd9EFK4lZGp0iVzjqpRzgd3Nh0dHpZM4oBJKSFgW85yqSqQlwoS%2Bonx9OYVfilZ5UeWbdweaBmjhXWCffBS4HBzMG2Xht5hwaxJQ9YGg%3D; tmr_detect=0%7C1742887645422; PageNumber=11; _spx=eyJpZCI6IjNiNzUxZDllLTdmZjgtNGNmMy1hNDhlLTY0N2NiOGJhMjAxMyIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbMTgwMTEwNzk5Miw0MzM1MzQ1MjYsMCwwLDEzMDc5MDE3NzJdfX0%3D; XSRF-TOKEN=eyJpdiI6IlNoZTUyMDNwcHdWZEZzajlXQWFZNEE9PSIsInZhbHVlIjoiQ01yeENiNWF6VkdERmdMV3REa3BrcWtGZTdEVE5HL25CU2Y1R3BZSU8wMXB6SzFESlVyeVczVjNxNS8xcklXNGZLZk5lSHR0bGVncWZzYmt6NDNxaUkzUGEwZDlBQmtJeGpiU21EcWhya2libElGQjhvYWUxcUVHSzhVMDV3UmwiLCJtYWMiOiI0YmI0ZjAzYWIyZTYxODhhMDEyNzgyMDU5ODQ1NzJjY2ZhYWM4OWIyMDllZjliYzE3NWFiYWI5OTQyNTFiYTUzIn0%3D; funsan_session=eyJpdiI6ImxaamZSZzFlMWlzZ0ZEbmpRbmJ6b1E9PSIsInZhbHVlIjoiZ3RZblplVko4cnM5NE5EUnU1ZHNYV1JTYXE1aGpuS2VjTlRqQURueXJYdnUyYVVSaXdMQWxQbDNhTHN5YnFRUGRzUXRTaXNuLzRvSUVYM1pRVW1CVDE0N0xrVzRjUkU4YVNvMDAwZE4xR0xLVzNCUlF2cWZGQ2EyY25UY0NmMXoiLCJtYWMiOiJhODc5ODRhMWFiZTQ0NDBiZjdlNDk5Yjk5NGYwY2Y4MDIyM2Q1NjNlZTIxOWUyYTZkYmMxNzc5NTY4YmMyYTgxIn0%3D; _ga_GJ17DPCPJY=GS1.1.1742883655.10.1.1742887670.0.0.0; call_s=___op885zi2.1742889468.564104921.241285:745570|2___; __ddg10_=1742887676; __ddg8_=tcKtSvLNvHfsKhYe"
+							}
+						],
+						"url": {
+							"raw": "https://fstravel.com/api/service-api/f-s/fields/get-nights-by-freight-type?arrivalCountryId=20613&departureCityId=1&checkinBeg=2024-04-08&checkinEnd=2024-04-08&adult=2&child=0&freightType=0",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								"api",
+								"service-api",
+								"f-s",
+								"fields",
+								"get-nights-by-freight-type"
+							],
+							"query": [
+								{
+									"key": "arrivalCountryId",
+									"value": "20613"
+								},
+								{
+									"key": "departureCityId",
+									"value": "1"
+								},
+								{
+									"key": "checkinBeg",
+									"value": "2024-04-08"
+								},
+								{
+									"key": "checkinEnd",
+									"value": "2024-04-08"
+								},
+								{
+									"key": "adult",
+									"value": "2"
+								},
+								{
+									"key": "child",
+									"value": "0"
+								},
+								{
+									"key": "freightType",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Generated from cURL: curl 'https://fstravel.com/api/service-api/f-s/fields/get-nights-by-freight-type?arrivalCountryId=20613&departureCityId=1&checkinBeg=2025-04-08&checkinEnd=2025-04-08&adult=2&child=0&freightType=0' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -b 'spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; token_type_fs=Bearer; access_token_fs=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiI4NjUxMDI5MTY3NDIyQTY4Qjc5QTJDQ0Y0MTRFMDUyQjNEN0VEMTI0IiwidHlwIjoiYXQrand0IiwiY3R5IjoiSldUIn0.e-47HXm-TJZyZwKRxtEEhZCY1ftzCvdxXoYwRuHlIGNcv3g7yBs4wnWiwru_OI3Cgk9h809MAq_gAZq-CvR25_BOB-iVf9Wziv5_cADrihtcDe3vNxpbqgOkzDbmIlEjFywbP2GTGKTgsfuynx7DpJdMXHNyZkkpaxh0xPYH9eHBmjPNsFpF7M396PdlcQRvhIZekq1MQ_77YcbywcTDVMVxZVzg0BSl1JHnmRYFP4GTnzOWWit0QvpDlGsqKagcZR14ntDWzsKW3o4lAvii4kk3dJZvt-K_hNn5fyxEDhMuHUqDWCWiSNNNehcvf1WlXXTgt_EwXOTUdcSYXPbPEQ.sQYl1nA5x7ir-4mVHKhvUQ.VCmgnWYjNHTufTKH9nC5RveXdEnG5HnfqvgUrymPkvA3DBjVWtV8jB66Om_s0W6UKTVgeTt9IEyfgvO662BmT_RorvcvxH8OYpfbHUAIfvKwIfWHMHqEyltoGUZLonPwYSXjSEeSWDPIFVR6QnVSEn-ssupEaWKnNCohK9b5IlegoCSuseo00B-Hai8sxyJ0yvTW-EEi-BX4UGgfCvBJd1R2IMjDtWgVwVt64urHSk5ZrnSs6Zjmt81VOnDeGSWHNBTQu33ds5OTNv1ctMoVAMyLlPit-OU7yei-DiQaPJ3RRUS7PiT1C6uOA1ofwdgsSBibT1n19cZgA7rm9A02Ep9yvRW5aihe9K7MGHbVMNILu7SkwYVJXQNw1Foihov3vkAwNmZfsOaJ5UtovU1aVlYvNga_dU2cwi5EFo7AwgwtxPE1Q74d7wKzsyO2K3k9Ac6iHmu6c8Z4soWDEl8TfblLhplhrodzyjbed_m2OmkTf-Vpo3Dkr1AESqo0o_SXRl1_OB_s3wDSi4Rt4Yy4r8lOVfufcAQleT3dco2dLa17BYeCCMKbYYsa3FfCubNPM7Vu1VkJiD-GzfsLnO3fOsFMerBJkW-NbzfyaXNaUzR5ywjNAU73bCi3PTX94jKobcwCUlvSG7kaItpJ1tXz0bROt7DzALIb5TORuRmYbktNjk5Jh-Z9ObmhCuprkyl1MCArpwejOsfKcQnhhFmDzQZcp7Uxkw_SD7yGbwtVbp0EiZ2VCkFluJQPnroNJYuz3eLz9Jl9eETChEsXndZRDvTFRhfypYFZPw2b0V3k7PWxLAP7w7EeCRx17xRJZSfx4geotIsFgmHwywQln8eEA2daP14agRoBsyZLAfjqxrBAC8MZpCORDhChIR3Dky-psBl5fnvDBw7JQiTeDQYBYAqnozz33MSV5srJORCbjgLA4-CnBgqsVjgonhBoIkjzozL-x0lxV2O4P7sayTq8RZpYxsIIYQlKb0Guz6sltF596job-ZiS_GaH1KBxlP6m6VAYJ9TUfXPbR0oTF7gLGxwFouXKwMhWeXuLFYbiA0Hev7-M4d9K3y8MNVMDLkKVHk7QmodPTtj2nxAGYJ2bpqGnDIpe6-wABiWCKO4U9EkVK1e-MFKMGujJB3sj6DXyokBnowPkrklfyM5JLdUbSuTiheV1vyUG1jj1SlmahR6UQILcheB9-FDCXpK_lc8TFB_T0O9qebFySfJ0NmvcSdCtjz_Eytb8eBanvXqDTh4Vofm-ueFQXb3rri_NaVFsO_cpsgxSjzXjtORx_Vo8eczqw94GuDaUme6o0gvtDtQgx26EKyn69f7EEhGkIr7sTkdR616_32e88QMNO5jlpIJD0nqtKKR7-wI4CsolmVlIsquxvNv0r2qbynUF2ncIVQIBxpxYIzqgAZY-84xZynewDzkrzhL4_SBjxmhhH08XmQVG1chQxHzZ8T5JAgfOsr6Bh3-lPrQxqtQ49uqe3joV6wHtTwfH69lgcUX7IXCNoK8tlwS4ctIk3NwAv5io.W0QLxpx3jC-AopcYpuDIteaRN4Pg6kAv7TQwkk-j9TI; adrdel=1742881345736; _ym_isad=2; __ddg9_=31.181.196.190; _ct_ids=op885zi2%3A42831%3A564104921; _ct_session_id=564104921; _ym_visorc=w; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113fteMGISawcgWPGmIuePdb5nlX7A1KqGQ%2F2gLdWv4XK0KplbAT48ob3GZD989BRmBpTbdpMM1qYOuK%2B9x7hym7dY9YfhSwE6L%2FVPjnwLph4wzghDuhhv1iDP7OK37gZGsKMYl%2FNvmLPR662LMNYkajuJctNlj%2Bgt5TZKrN5HqejAhZjqm1sDKHbGfasDt3uwX18gfI4ui%2B%2FzKWV7aBdlrPL%2BsNC3ybkFLmuAPA%2FJq%2Fgujdfq6m6G10oofYDpJaHUsJ3ys7UdJQLZOv6wlAiGZUT3jAmc2s8YZctwEYSAueCQQ1mMOFNMh0y2TOM%2BB%2BPudwqnzq%2FHmFoYnzpet38vN4oSOBLAxQp78%2BMD3Be45rob%2Fd7ywkmVgHgIvkmd2HRVJTtB5OrVVXYyp0NVIg%2FbxCRjJ9n5VUBav8hzF9Mq0%2BadPTALosPJBpPAjKldgmze1vgkCZngJxbgEW3nRAndjWvduUPX7ffBRVJGHMJ6U6hjJzOpc8hBu08K8Vf9zD1T1KWkmI6uEMIeqSAoX73YZF6MeWb4SkFyr%2BDqjWOzLMKQPS%2FJdPVTvDPgCXALHmPl%2BgN6eg2jO%2BUMaiBlrd9EFK4lZGp0iVzjqpRzgd3Nh0dHpZM4oBJKSFgW85yqSqQlwoS%2Bonx9OYVfilZ5UeWbdweaBmjhXWCffBS4HBzMG2Xht5hwaxJQ9YGg%3D; tmr_detect=0%7C1742887645422; PageNumber=11; _spx=eyJpZCI6IjNiNzUxZDllLTdmZjgtNGNmMy1hNDhlLTY0N2NiOGJhMjAxMyIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbMTgwMTEwNzk5Miw0MzM1MzQ1MjYsMCwwLDEzMDc5MDE3NzJdfX0%3D; XSRF-TOKEN=eyJpdiI6IlNoZTUyMDNwcHdWZEZzajlXQWFZNEE9PSIsInZhbHVlIjoiQ01yeENiNWF6VkdERmdMV3REa3BrcWtGZTdEVE5HL25CU2Y1R3BZSU8wMXB6SzFESlVyeVczVjNxNS8xcklXNGZLZk5lSHR0bGVncWZzYmt6NDNxaUkzUGEwZDlBQmtJeGpiU21EcWhya2libElGQjhvYWUxcUVHSzhVMDV3UmwiLCJtYWMiOiI0YmI0ZjAzYWIyZTYxODhhMDEyNzgyMDU5ODQ1NzJjY2ZhYWM4OWIyMDllZjliYzE3NWFiYWI5OTQyNTFiYTUzIn0%3D; funsan_session=eyJpdiI6ImxaamZSZzFlMWlzZ0ZEbmpRbmJ6b1E9PSIsInZhbHVlIjoiZ3RZblplVko4cnM5NE5EUnU1ZHNYV1JTYXE1aGpuS2VjTlRqQURueXJYdnUyYVVSaXdMQWxQbDNhTHN5YnFRUGRzUXRTaXNuLzRvSUVYM1pRVW1CVDE0N0xrVzRjUkU4YVNvMDAwZE4xR0xLVzNCUlF2cWZGQ2EyY25UY0NmMXoiLCJtYWMiOiJhODc5ODRhMWFiZTQ0NDBiZjdlNDk5Yjk5NGYwY2Y4MDIyM2Q1NjNlZTIxOWUyYTZkYmMxNzc5NTY4YmMyYTgxIn0%3D; _ga_GJ17DPCPJY=GS1.1.1742883655.10.1.1742887670.0.0.0; call_s=___op885zi2.1742889468.564104921.241285:745570|2___; __ddg10_=1742887676; __ddg8_=tcKtSvLNvHfsKhYe' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/searchhotel/country/asia/uae?departureCityId=1&arrivalCountryId=20613&minStartDate=2025-04-08&maxStartDate=2025-04-08&minNightsCount=7&maxNightsCount=7&adults=2' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  -H 'x-xsrf-token: eyJpdiI6IlNoZTUyMDNwcHdWZEZzajlXQWFZNEE9PSIsInZhbHVlIjoiQ01yeENiNWF6VkdERmdMV3REa3BrcWtGZTdEVE5HL25CU2Y1R3BZSU8wMXB6SzFESlVyeVczVjNxNS8xcklXNGZLZk5lSHR0bGVncWZzYmt6NDNxaUkzUGEwZDlBQmtJeGpiU21EcWhya2libElGQjhvYWUxcUVHSzhVMDV3UmwiLCJtYWMiOiI0YmI0ZjAzYWIyZTYxODhhMDEyNzgyMDU5ODQ1NzJjY2ZhYWM4OWIyMDllZjliYzE3NWFiYWI5OTQyNTFiYTUzIn0='"
+					},
+					"response": []
+				},
+				{
+					"name": "запрос без токена",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fstravel.com/",
+							"protocol": "https",
+							"host": [
+								"fstravel",
+								"com"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "запрос статуса аутентификации",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+					},
+					{
+						"key": "baggage",
+						"value": "sentry-environment=production,sentry-release=RELEASETAG,sentry-public_key=93886c834183490a95d9db5eb96c2010,sentry-trace_id=165a44e409d24378a0ddb808cd7b1f7f,sentry-sample_rate=1,sentry-sampled=true"
+					},
+					{
+						"key": "content-length",
+						"value": "0"
+					},
+					{
+						"key": "origin",
+						"value": "https://fstravel.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://fstravel.com/avia"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sentry-trace",
+						"value": "165a44e409d24378a0ddb808cd7b1f7f-8c282a3a98d23511-1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-csrf-token",
+						"value": "JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-xsrf-token",
+						"value": "eyJpdiI6ImsvOS9tdGNiY3p0cTRBS2NGNWdFNHc9PSIsInZhbHVlIjoiQ1NwVitRZXdrZ1lTU0xxMlA0YWpZckx5d3F6Z0pJUUt4b1FMdHF1YzhsejJwODRYcDRiWkowU2gyYnlzNG1mdGtzNkpnbFZKekpaZEg4bnlIdGNBVEpxRTBNUy92VGJoWFU1bzJoMWR0bEIxcldhcGZPWk45L1JvSkVRSDBnaVgiLCJtYWMiOiI2YzM5M2M5ZTdhNWVmYmJkYzVjYzdjMmNmNWNjZTJjZGUyMjE1ZTdhNjA0ZTUwMTliYmNlYzFiNjVjZmZlYzJkIn0="
+					},
+					{
+						"key": "Cookie",
+						"value": "spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; token_type_fs=Bearer; access_token_fs=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiI4NjUxMDI5MTY3NDIyQTY4Qjc5QTJDQ0Y0MTRFMDUyQjNEN0VEMTI0IiwidHlwIjoiYXQrand0IiwiY3R5IjoiSldUIn0.e-47HXm-TJZyZwKRxtEEhZCY1ftzCvdxXoYwRuHlIGNcv3g7yBs4wnWiwru_OI3Cgk9h809MAq_gAZq-CvR25_BOB-iVf9Wziv5_cADrihtcDe3vNxpbqgOkzDbmIlEjFywbP2GTGKTgsfuynx7DpJdMXHNyZkkpaxh0xPYH9eHBmjPNsFpF7M396PdlcQRvhIZekq1MQ_77YcbywcTDVMVxZVzg0BSl1JHnmRYFP4GTnzOWWit0QvpDlGsqKagcZR14ntDWzsKW3o4lAvii4kk3dJZvt-K_hNn5fyxEDhMuHUqDWCWiSNNNehcvf1WlXXTgt_EwXOTUdcSYXPbPEQ.sQYl1nA5x7ir-4mVHKhvUQ.VCmgnWYjNHTufTKH9nC5RveXdEnG5HnfqvgUrymPkvA3DBjVWtV8jB66Om_s0W6UKTVgeTt9IEyfgvO662BmT_RorvcvxH8OYpfbHUAIfvKwIfWHMHqEyltoGUZLonPwYSXjSEeSWDPIFVR6QnVSEn-ssupEaWKnNCohK9b5IlegoCSuseo00B-Hai8sxyJ0yvTW-EEi-BX4UGgfCvBJd1R2IMjDtWgVwVt64urHSk5ZrnSs6Zjmt81VOnDeGSWHNBTQu33ds5OTNv1ctMoVAMyLlPit-OU7yei-DiQaPJ3RRUS7PiT1C6uOA1ofwdgsSBibT1n19cZgA7rm9A02Ep9yvRW5aihe9K7MGHbVMNILu7SkwYVJXQNw1Foihov3vkAwNmZfsOaJ5UtovU1aVlYvNga_dU2cwi5EFo7AwgwtxPE1Q74d7wKzsyO2K3k9Ac6iHmu6c8Z4soWDEl8TfblLhplhrodzyjbed_m2OmkTf-Vpo3Dkr1AESqo0o_SXRl1_OB_s3wDSi4Rt4Yy4r8lOVfufcAQleT3dco2dLa17BYeCCMKbYYsa3FfCubNPM7Vu1VkJiD-GzfsLnO3fOsFMerBJkW-NbzfyaXNaUzR5ywjNAU73bCi3PTX94jKobcwCUlvSG7kaItpJ1tXz0bROt7DzALIb5TORuRmYbktNjk5Jh-Z9ObmhCuprkyl1MCArpwejOsfKcQnhhFmDzQZcp7Uxkw_SD7yGbwtVbp0EiZ2VCkFluJQPnroNJYuz3eLz9Jl9eETChEsXndZRDvTFRhfypYFZPw2b0V3k7PWxLAP7w7EeCRx17xRJZSfx4geotIsFgmHwywQln8eEA2daP14agRoBsyZLAfjqxrBAC8MZpCORDhChIR3Dky-psBl5fnvDBw7JQiTeDQYBYAqnozz33MSV5srJORCbjgLA4-CnBgqsVjgonhBoIkjzozL-x0lxV2O4P7sayTq8RZpYxsIIYQlKb0Guz6sltF596job-ZiS_GaH1KBxlP6m6VAYJ9TUfXPbR0oTF7gLGxwFouXKwMhWeXuLFYbiA0Hev7-M4d9K3y8MNVMDLkKVHk7QmodPTtj2nxAGYJ2bpqGnDIpe6-wABiWCKO4U9EkVK1e-MFKMGujJB3sj6DXyokBnowPkrklfyM5JLdUbSuTiheV1vyUG1jj1SlmahR6UQILcheB9-FDCXpK_lc8TFB_T0O9qebFySfJ0NmvcSdCtjz_Eytb8eBanvXqDTh4Vofm-ueFQXb3rri_NaVFsO_cpsgxSjzXjtORx_Vo8eczqw94GuDaUme6o0gvtDtQgx26EKyn69f7EEhGkIr7sTkdR616_32e88QMNO5jlpIJD0nqtKKR7-wI4CsolmVlIsquxvNv0r2qbynUF2ncIVQIBxpxYIzqgAZY-84xZynewDzkrzhL4_SBjxmhhH08XmQVG1chQxHzZ8T5JAgfOsr6Bh3-lPrQxqtQ49uqe3joV6wHtTwfH69lgcUX7IXCNoK8tlwS4ctIk3NwAv5io.W0QLxpx3jC-AopcYpuDIteaRN4Pg6kAv7TQwkk-j9TI; adrdel=1742881345736; _ym_isad=2; __ddg9_=31.181.196.190; _ct_ids=op885zi2%3A42831%3A564104921; _ct_session_id=564104921; _ym_visorc=w; __ddg10_=1742885294; __ddg8_=LJzOT5t7ZDC1txVe; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113b6dfVZYhtTnVM8JToMVMeoV5Df6sO7V3Uqqul3N8mCNJb88n0iis26YFFmQQftZK2UszTU0odJEdqwxIzKPfjZEpGUYqBP%2FyhTqKmm441ZUxTJQApoDpoDO5mWDVwxNqH0rG2aRbYgu%2FhiKvhrqg71OSXogjUG3ei10lvhRkAj3a3y%2FODPAvuSU%2BqtyhjHw122S1DI9mduWBbRj7Wwfa%2BoLQHCsgdkvGZ6n5L%2FOrlMMqJ%2BFjDlQwAOodTG5Xq2yyhzWXSOBCvpu42x7QGkP%2BPYXzs47rW8%2FWCYZQv4GmM4folgL18rceoHQEVr2HtKZxlbqHA05WFXyuCApzFVO6J3CWm%2FxWuCjjTymnTEmCFazMCCPSEomftgQ16bsT4cmqUPgNfcjpYW8MFyYuqHicRwajqspIk%2FQX0Z9KAdoqG%2B68dLIimyKnBOyY02ZAUefTcPrOj61gEafD51AeZQkEddAXd0envxDEAPsY49zo09VSCIQQ7MkpaQHJ70%2FFRGYmBo%2FW%2BL7aCrNRAQsbLCgFJHypLYhHuY4RVZPWXWm1RRGK0%2Bom2odu4M2A%2Fe%2FukltDzWB%2BpQ1GZTgwLJk3XkPscyfR5ldpOTCHCKL5Eb3%2Bjh9ba%2B5UT6kKjg1idSZhSQDjaOYKE8Q8mX5GByhB4vgIAI71Mwd9jn0hriuzrvNxV%2FHRHr%2FhM2yj1QU%3D; tmr_detect=0%7C1742885458690; PageNumber=6; _spx=eyJpZCI6IjNiNzUxZDllLTdmZjgtNGNmMy1hNDhlLTY0N2NiOGJhMjAxMyIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbMjA3Mjk5MjI0MSwwLDk2MDUyOTE3OCwwLDBdfX0%3D; _ga_GJ17DPCPJY=GS1.1.1742883655.10.1.1742885543.0.0.0; XSRF-TOKEN=eyJpdiI6ImsvOS9tdGNiY3p0cTRBS2NGNWdFNHc9PSIsInZhbHVlIjoiQ1NwVitRZXdrZ1lTU0xxMlA0YWpZckx5d3F6Z0pJUUt4b1FMdHF1YzhsejJwODRYcDRiWkowU2gyYnlzNG1mdGtzNkpnbFZKekpaZEg4bnlIdGNBVEpxRTBNUy92VGJoWFU1bzJoMWR0bEIxcldhcGZPWk45L1JvSkVRSDBnaVgiLCJtYWMiOiI2YzM5M2M5ZTdhNWVmYmJkYzVjYzdjMmNmNWNjZTJjZGUyMjE1ZTdhNjA0ZTUwMTliYmNlYzFiNjVjZmZlYzJkIn0%3D; funsan_session=eyJpdiI6IkZpS2ltQUJWcTJTZXdJeGJmcTljZFE9PSIsInZhbHVlIjoiaFkrR294WU5MSnY5SFpYaWlTTWpiS1dxMDlIUmVyNkRpak5HSUpnTHFKZnFjMHdHaS9iSUZWNkZSanNWT0VLQXRpLy9waEtrK2dXeXpWNVZkK2NPVHFjZTM5N1ZkTjduZTZEMS95dDdzWDdIRlVVWXVLVGlXL1pndUlxc3FnWVciLCJtYWMiOiJhMDc4ZTUwYTFkMDZkOGYwODZhNjJkYjliNGEwZmIzZTQ4NGYwMDJjZGU0ZWZlMTI4ZjQwMGExY2MyYmE3MmQ3In0%3D; call_s=___op885zi2.1742887344.564104921.241285:745570|2___"
+					}
+				],
+				"url": {
+					"raw": "https://fstravel.com/api/login/auth-status",
+					"protocol": "https",
+					"host": [
+						"fstravel",
+						"com"
+					],
+					"path": [
+						"api",
+						"login",
+						"auth-status"
+					]
+				},
+				"description": "Generated from cURL: curl 'https://fstravel.com/api/login/auth-status' \\\r\n  -X 'POST' \\\r\n  -H 'accept: application/json, text/plain, */*' \\\r\n  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \\\r\n  -H 'baggage: sentry-environment=production,sentry-release=RELEASETAG,sentry-public_key=93886c834183490a95d9db5eb96c2010,sentry-trace_id=165a44e409d24378a0ddb808cd7b1f7f,sentry-sample_rate=1,sentry-sampled=true' \\\r\n  -H 'content-length: 0' \\\r\n  -b 'spid=1737640071399_e79752eaa892cc2272e112d0f6193f28_3sidmm01bt3ejbmw; popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; _ymab_param=utR9KWMQG1fi7TD8tAT35htKpSLoPdeaBtfdEYZLleiJ6zJTWoRiL8xWHLG7nbHHCu3YzOIp7f9KK65whWPrYidHKJ8; tmr_lvid=79fa6d47130a0a20072647c8644650bc; tmr_lvidTS=1737640073684; flocktory-uuid=67c7b15c-eec3-44ac-b717-c152e1fb9770-0; _ym_uid=1737640075181071835; _ym_d=1737640075; _ct=1700000000354152578; _ct_client_global_id=41e2aca7-f01b-5255-bd64-1fa9e058bca1; adrcid=AX5HE7k6eSKkEzr8fMHXpPw; has_action=true; _ga=GA1.1.334417269.1737640073; cted=modId%3Dop885zi2%3Bclient_id%3D334417269.1737640073%3Bya_client_id%3D1737640075181071835; _ct_site_id=42831; advcake_track_id=36ae49b1-c2d6-2f8b-f93d-63d213e12618; advcake_session_id=2826a9f9-58e8-4de9-3642-7235ff1f140b; uxs_uid=ab7ce990-0700-11f0-98f5-538ecf5dac67; r2UserId=1742635995079095; analytic_id=1742635995099349; __ddg1_=A48golFe5YaNGRW0dEya; is_role_agent=true; tb_notif_widget_widgetUserId=5a6d9a6b-1a8b-41ff-a52a-04b3b0011f3f; PHPSESSID=ccsd29qv3qmjuiqe3o2iolpbq3; acs_3=%7B%22hash%22%3A%221aa3f9523ee6c2690cb34fc702d4143056487c0d%22%2C%22nst%22%3A1742894829598%2C%22sl%22%3A%7B%22224%22%3A1742808429598%2C%221228%22%3A1742808429598%7D%7D; domain_sid=pl2EehbLe0MYttJ-bz_Wt%3A1742808429620; _ga_ZXF2M2B73B=GS1.1.1742817022.3.0.1742817035.0.0.0; token_type_fs=Bearer; access_token_fs=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkEyNTZDQkMtSFM1MTIiLCJraWQiOiI4NjUxMDI5MTY3NDIyQTY4Qjc5QTJDQ0Y0MTRFMDUyQjNEN0VEMTI0IiwidHlwIjoiYXQrand0IiwiY3R5IjoiSldUIn0.e-47HXm-TJZyZwKRxtEEhZCY1ftzCvdxXoYwRuHlIGNcv3g7yBs4wnWiwru_OI3Cgk9h809MAq_gAZq-CvR25_BOB-iVf9Wziv5_cADrihtcDe3vNxpbqgOkzDbmIlEjFywbP2GTGKTgsfuynx7DpJdMXHNyZkkpaxh0xPYH9eHBmjPNsFpF7M396PdlcQRvhIZekq1MQ_77YcbywcTDVMVxZVzg0BSl1JHnmRYFP4GTnzOWWit0QvpDlGsqKagcZR14ntDWzsKW3o4lAvii4kk3dJZvt-K_hNn5fyxEDhMuHUqDWCWiSNNNehcvf1WlXXTgt_EwXOTUdcSYXPbPEQ.sQYl1nA5x7ir-4mVHKhvUQ.VCmgnWYjNHTufTKH9nC5RveXdEnG5HnfqvgUrymPkvA3DBjVWtV8jB66Om_s0W6UKTVgeTt9IEyfgvO662BmT_RorvcvxH8OYpfbHUAIfvKwIfWHMHqEyltoGUZLonPwYSXjSEeSWDPIFVR6QnVSEn-ssupEaWKnNCohK9b5IlegoCSuseo00B-Hai8sxyJ0yvTW-EEi-BX4UGgfCvBJd1R2IMjDtWgVwVt64urHSk5ZrnSs6Zjmt81VOnDeGSWHNBTQu33ds5OTNv1ctMoVAMyLlPit-OU7yei-DiQaPJ3RRUS7PiT1C6uOA1ofwdgsSBibT1n19cZgA7rm9A02Ep9yvRW5aihe9K7MGHbVMNILu7SkwYVJXQNw1Foihov3vkAwNmZfsOaJ5UtovU1aVlYvNga_dU2cwi5EFo7AwgwtxPE1Q74d7wKzsyO2K3k9Ac6iHmu6c8Z4soWDEl8TfblLhplhrodzyjbed_m2OmkTf-Vpo3Dkr1AESqo0o_SXRl1_OB_s3wDSi4Rt4Yy4r8lOVfufcAQleT3dco2dLa17BYeCCMKbYYsa3FfCubNPM7Vu1VkJiD-GzfsLnO3fOsFMerBJkW-NbzfyaXNaUzR5ywjNAU73bCi3PTX94jKobcwCUlvSG7kaItpJ1tXz0bROt7DzALIb5TORuRmYbktNjk5Jh-Z9ObmhCuprkyl1MCArpwejOsfKcQnhhFmDzQZcp7Uxkw_SD7yGbwtVbp0EiZ2VCkFluJQPnroNJYuz3eLz9Jl9eETChEsXndZRDvTFRhfypYFZPw2b0V3k7PWxLAP7w7EeCRx17xRJZSfx4geotIsFgmHwywQln8eEA2daP14agRoBsyZLAfjqxrBAC8MZpCORDhChIR3Dky-psBl5fnvDBw7JQiTeDQYBYAqnozz33MSV5srJORCbjgLA4-CnBgqsVjgonhBoIkjzozL-x0lxV2O4P7sayTq8RZpYxsIIYQlKb0Guz6sltF596job-ZiS_GaH1KBxlP6m6VAYJ9TUfXPbR0oTF7gLGxwFouXKwMhWeXuLFYbiA0Hev7-M4d9K3y8MNVMDLkKVHk7QmodPTtj2nxAGYJ2bpqGnDIpe6-wABiWCKO4U9EkVK1e-MFKMGujJB3sj6DXyokBnowPkrklfyM5JLdUbSuTiheV1vyUG1jj1SlmahR6UQILcheB9-FDCXpK_lc8TFB_T0O9qebFySfJ0NmvcSdCtjz_Eytb8eBanvXqDTh4Vofm-ueFQXb3rri_NaVFsO_cpsgxSjzXjtORx_Vo8eczqw94GuDaUme6o0gvtDtQgx26EKyn69f7EEhGkIr7sTkdR616_32e88QMNO5jlpIJD0nqtKKR7-wI4CsolmVlIsquxvNv0r2qbynUF2ncIVQIBxpxYIzqgAZY-84xZynewDzkrzhL4_SBjxmhhH08XmQVG1chQxHzZ8T5JAgfOsr6Bh3-lPrQxqtQ49uqe3joV6wHtTwfH69lgcUX7IXCNoK8tlwS4ctIk3NwAv5io.W0QLxpx3jC-AopcYpuDIteaRN4Pg6kAv7TQwkk-j9TI; adrdel=1742881345736; _ym_isad=2; __ddg9_=31.181.196.190; _ct_ids=op885zi2%3A42831%3A564104921; _ct_session_id=564104921; _ym_visorc=w; __ddg10_=1742885294; __ddg8_=LJzOT5t7ZDC1txVe; mindboxDeviceUUID=f3211181-9713-485e-94b8-bdd7038f518c; directCrm-session=%7B%22deviceGuid%22%3A%22f3211181-9713-485e-94b8-bdd7038f518c%22%7D; advcake_track_url=%3D20250113b6dfVZYhtTnVM8JToMVMeoV5Df6sO7V3Uqqul3N8mCNJb88n0iis26YFFmQQftZK2UszTU0odJEdqwxIzKPfjZEpGUYqBP%2FyhTqKmm441ZUxTJQApoDpoDO5mWDVwxNqH0rG2aRbYgu%2FhiKvhrqg71OSXogjUG3ei10lvhRkAj3a3y%2FODPAvuSU%2BqtyhjHw122S1DI9mduWBbRj7Wwfa%2BoLQHCsgdkvGZ6n5L%2FOrlMMqJ%2BFjDlQwAOodTG5Xq2yyhzWXSOBCvpu42x7QGkP%2BPYXzs47rW8%2FWCYZQv4GmM4folgL18rceoHQEVr2HtKZxlbqHA05WFXyuCApzFVO6J3CWm%2FxWuCjjTymnTEmCFazMCCPSEomftgQ16bsT4cmqUPgNfcjpYW8MFyYuqHicRwajqspIk%2FQX0Z9KAdoqG%2B68dLIimyKnBOyY02ZAUefTcPrOj61gEafD51AeZQkEddAXd0envxDEAPsY49zo09VSCIQQ7MkpaQHJ70%2FFRGYmBo%2FW%2BL7aCrNRAQsbLCgFJHypLYhHuY4RVZPWXWm1RRGK0%2Bom2odu4M2A%2Fe%2FukltDzWB%2BpQ1GZTgwLJk3XkPscyfR5ldpOTCHCKL5Eb3%2Bjh9ba%2B5UT6kKjg1idSZhSQDjaOYKE8Q8mX5GByhB4vgIAI71Mwd9jn0hriuzrvNxV%2FHRHr%2FhM2yj1QU%3D; tmr_detect=0%7C1742885458690; PageNumber=6; _spx=eyJpZCI6IjNiNzUxZDllLTdmZjgtNGNmMy1hNDhlLTY0N2NiOGJhMjAxMyIsInNvdXJjZSI6IiIsImZpeGVkIjp7InN0YWNrIjpbMjA3Mjk5MjI0MSwwLDk2MDUyOTE3OCwwLDBdfX0%3D; _ga_GJ17DPCPJY=GS1.1.1742883655.10.1.1742885543.0.0.0; XSRF-TOKEN=eyJpdiI6ImsvOS9tdGNiY3p0cTRBS2NGNWdFNHc9PSIsInZhbHVlIjoiQ1NwVitRZXdrZ1lTU0xxMlA0YWpZckx5d3F6Z0pJUUt4b1FMdHF1YzhsejJwODRYcDRiWkowU2gyYnlzNG1mdGtzNkpnbFZKekpaZEg4bnlIdGNBVEpxRTBNUy92VGJoWFU1bzJoMWR0bEIxcldhcGZPWk45L1JvSkVRSDBnaVgiLCJtYWMiOiI2YzM5M2M5ZTdhNWVmYmJkYzVjYzdjMmNmNWNjZTJjZGUyMjE1ZTdhNjA0ZTUwMTliYmNlYzFiNjVjZmZlYzJkIn0%3D; funsan_session=eyJpdiI6IkZpS2ltQUJWcTJTZXdJeGJmcTljZFE9PSIsInZhbHVlIjoiaFkrR294WU5MSnY5SFpYaWlTTWpiS1dxMDlIUmVyNkRpak5HSUpnTHFKZnFjMHdHaS9iSUZWNkZSanNWT0VLQXRpLy9waEtrK2dXeXpWNVZkK2NPVHFjZTM5N1ZkTjduZTZEMS95dDdzWDdIRlVVWXVLVGlXL1pndUlxc3FnWVciLCJtYWMiOiJhMDc4ZTUwYTFkMDZkOGYwODZhNjJkYjliNGEwZmIzZTQ4NGYwMDJjZGU0ZWZlMTI4ZjQwMGExY2MyYmE3MmQ3In0%3D; call_s=___op885zi2.1742887344.564104921.241285:745570|2___' \\\r\n  -H 'origin: https://fstravel.com' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://fstravel.com/avia' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sentry-trace: 165a44e409d24378a0ddb808cd7b1f7f-8c282a3a98d23511-1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-csrf-token: JhfhNQHoeFrAJDNOPSS9v8XZ1zNrYsOgjhcwNZga' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  -H 'x-xsrf-token: eyJpdiI6ImsvOS9tdGNiY3p0cTRBS2NGNWdFNHc9PSIsInZhbHVlIjoiQ1NwVitRZXdrZ1lTU0xxMlA0YWpZckx5d3F6Z0pJUUt4b1FMdHF1YzhsejJwODRYcDRiWkowU2gyYnlzNG1mdGtzNkpnbFZKekpaZEg4bnlIdGNBVEpxRTBNUy92VGJoWFU1bzJoMWR0bEIxcldhcGZPWk45L1JvSkVRSDBnaVgiLCJtYWMiOiI2YzM5M2M5ZTdhNWVmYmJkYzVjYzdjMmNmNWNjZTJjZGUyMjE1ZTdhNjA0ZTUwMTliYmNlYzFiNjVjZmZlYzJkIn0='"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "41e2aca7-f01b-5255-bd64-1fa9e058bca1",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
